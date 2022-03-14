@@ -1,0 +1,21 @@
+\documentclass[a4paper,12pt,spanish]{article}
+% Load all packages and settings in the preamble 
+\input{settings/packages}
+
+\begin{document}
+% Load initial settings for the document
+\input{settings/initial_settings}	
+% Cover page
+\input{sections/00_cover_page}
+\newpage             
+\tableofcontents      
+\newpage
+% Sections
+\input{sections/01_introduction}
+\input{sections/02_methodology}
+\input{sections/03_results}
+\input{sections/04_conclusions}
+% Bibliography
+\newpage
+\printbibliography[heading=bibintoc]
+\end{document}

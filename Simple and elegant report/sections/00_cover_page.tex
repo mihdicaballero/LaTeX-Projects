@@ -1,0 +1,37 @@
+\begin{titlepage}
+	\thispagestyle{empty} % Para que no aparezca numero de pagina
+	\newgeometry{%
+		top=4.8cm, % Espacio blanco arriba del logo
+		bottom=3cm,
+		left=3.50cm,
+		right=2.54cm,
+		headsep=0.75cm,
+		headheight=35pt,
+		footskip=2cm,
+		marginparwidth=4cm,}
+	\begin{tikzpicture}[remember picture,overlay]
+		\node[inner sep=0pt] at (current page.center)
+		{\includegraphics[width=21cm]{cover}};
+	\end{tikzpicture}
+	% Inserto el logo	
+	%	
+	\vspace{4cm} \noindent 
+	% Nombre del coumento
+	\begin{flushright}
+		{\fontsize{40}{50}\selectfont
+			
+			\begin{tabular}{>{\raggedleft\arraybackslash}p{8cm}}
+				\titulo \\ 
+		\end{tabular} }
+	\end{flushright}
+
+	\vfill \noindent
+	\begin{flushright}
+		{\Huge 
+			\begin{tabular}{>{\raggedleft\arraybackslash}p{10cm}}
+				{\Large \bfseries Mi proyecto pro en \LaTeX} \\ [0.5cm]
+				{\Large \autor} \\
+				{\Large \fecha}
+		\end{tabular} }
+	\end{flushright}
+\end{titlepage}

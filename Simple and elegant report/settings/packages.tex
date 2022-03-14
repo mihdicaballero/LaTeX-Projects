@@ -1,0 +1,96 @@
+% *** LANGUAGE PACKAGES ***
+\usepackage[es-nodecimaldot, mexico]{babel} 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[useregional]{datetime2}
+\usepackage{lipsum}
+
+% *** GEOMETRY PACKAGES ***
+\usepackage{geometry}
+\geometry{
+	left=25mm,
+	right=25mm,
+	top=35mm,
+	bottom=30mm,
+	headheight = 35 mm
+} 
+\usepackage{lastpage}
+
+% *** COLOR PACKAGES ***
+\usepackage[table]{xcolor}
+
+\definecolor{blue}{RGB}{0,89,140}
+\definecolor{gray}{RGB}{242,242,242}
+\definecolor{grayblack}{RGB}{50,50,50}
+\definecolor{blue2}{RGB}{10,62,157}
+\definecolor{red2}{RGB}{173,17,0}
+\definecolor{gray2}{RGB}{230,230,230}
+
+\usepackage{fancyhdr} % Paquete para editar el formato de la página
+\renewcommand{\headrulewidth}{0.5pt} % Lineas arriba del encabezado
+\let\oldheadrule\headrule% Copy \headrule into \oldheadrule
+\renewcommand{\headrule}{\color{blue}\oldheadrule}% Add colour to \headrule
+\renewcommand{\footrulewidth}{0.5pt} % Lineas arriba de los pie de página
+\let\oldfootrule\footrule%
+\renewcommand{\footrule}{\color{blue}\oldfootrule}% Add colour to \headrule
+\pagestyle{fancy}                    % Estilo de página                      
+\cfoot{}                             % Se quita numeración de página en el centro, que es por defecto.                        
+%\lhead{\textcolor{grayblack}{\nouppercase{\leftmark}}}      % Encabezado izquierdo    
+\lhead{\includegraphics[width=0.15\textwidth]{logo}}      % Encabezado izquierdo    
+\chead{\textcolor{grayblack}{\autor}}
+%\chead{\includegraphics[width=0.15\textwidth]{logo}}
+\rhead{\textcolor{grayblack}{\DTMsetstyle{ddmmyyyy} \fecha}}
+\lfoot{\textcolor{grayblack}{\small \titulo}}        % Pie de página izquierdo
+\rfoot{\textcolor{grayblack}{\small Pág. \thepage\ - \pageref*{LastPage}}} 			     % Pie de página derecho
+
+% *** GRAPHICS RELATED PACKAGES ***
+\usepackage{graphicx}         %Para trabajar con imagenes
+\usepackage{float}            % Para poder poner figuras dentro de minipages
+\usepackage{wrapfig}
+\usepackage{tikz}
+\usepackage[hypcap,font={color=grayblack}]{caption} % Las imágenes tienen hiperreferencia y se ven completas 
+\usepackage{subcaption} 	% Para poner subfiguras
+\usepackage{overpic}
+\graphicspath{{././figures/}}  % Se indica ubicación de carpeta con imágenes para no indicarlo en cada imagen
+
+
+% *** TITLE PACKAGES ***
+\usepackage{titlesec}
+\titleformat{\section}{\color{blue}\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\color{blue}\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\usepackage{setspace} % Para ajustar la separación entre líneas del documento
+
+% *** TABLE PACKAGES ***
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{footnote} % To have footnotes inside tables
+\usepackage{array}
+
+\usepackage{xurl} % Lo cargo antes de hyperref, porque ese ya lo carga también.
+\urlstyle{sf} % Estilo de los url pasa a Sans Serif.
+
+\usepackage[colorlinks,
+citecolor=cyan,
+urlcolor=blue,
+linkcolor=blue,
+citebordercolor={0 0 1},
+urlbordercolor={0 1 1},
+linktocpage,
+hyperfootnotes=true
+]{hyperref}
+
+%%% ECUACIONES %%%
+\usepackage{mathtools}
+
+\usepackage[
+backend=biber,	% Backend para las referencias (no modificar)
+style=apa, 		% Estilo APA de bibliografía
+sortcites,		% Para tener ordenadas las citas
+natbib=true,	% Utiliza natbib
+url=true, 		% Para que aparezca o no la url
+doi=true,		% Para que aparezca o no el DOI
+isbn=false 		% Para que aparezca o no el ISBN
+]{biblatex}
+\addbibresource{bibliography/biblio_1.bib}
