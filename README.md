@@ -2,6 +2,6 @@
 LaTeX templates, classes and guides to create beautiful and efficient documents.
 
 
-**Licence**
+## Licence
 
 This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
