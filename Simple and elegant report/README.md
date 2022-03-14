@@ -1,4 +1,4 @@
-# Simple report
+# Simple and elegant report
 A beautiful and simple report template.
 
 This template is based on the article class and is very straight forward in its coding. It is meant to be completely defined in the preamble, so the user can easily understand how the format was defined and can make changes without needing to understand the complexity of classes code in LaTeX.
