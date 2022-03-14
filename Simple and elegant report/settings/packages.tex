@@ -2,15 +2,14 @@
 \usepackage[es-nodecimaldot, mexico]{babel} 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{lmodern}
+\usepackage{lmodern}		% Great font
 \renewcommand*\familydefault{\sfdefault}
-\usepackage[useregional]{datetime2}
-\usepackage{lipsum}
+\usepackage[useregional]{datetime2}		% To use several date formats
+\usepackage{lipsum}		% For dummy text
 
 % *** GEOMETRY PACKAGES ***
 \usepackage{geometry}
-\geometry{
-	left=25mm,
+\geometry{left=25mm,
 	right=25mm,
 	top=35mm,
 	bottom=30mm,
@@ -19,8 +18,8 @@
 \usepackage{lastpage}
 
 % *** COLOR PACKAGES ***
-\usepackage[table]{xcolor}
-
+\usepackage[table]{xcolor}		% "table" for table rowcolors
+% Color definitiions
 \definecolor{blue}{RGB}{0,89,140}
 \definecolor{gray}{RGB}{242,242,242}
 \definecolor{grayblack}{RGB}{50,50,50}
@@ -28,33 +27,31 @@
 \definecolor{red2}{RGB}{173,17,0}
 \definecolor{gray2}{RGB}{230,230,230}
 
-\usepackage{fancyhdr} % Paquete para editar el formato de la página
-\renewcommand{\headrulewidth}{0.5pt} % Lineas arriba del encabezado
+% *** HEADING AND FOOTER ***
+\usepackage{fancyhdr} % For heading and footers
+\renewcommand{\headrulewidth}{0.5pt}
 \let\oldheadrule\headrule% Copy \headrule into \oldheadrule
 \renewcommand{\headrule}{\color{blue}\oldheadrule}% Add colour to \headrule
-\renewcommand{\footrulewidth}{0.5pt} % Lineas arriba de los pie de página
+\renewcommand{\footrulewidth}{0.5pt} 
 \let\oldfootrule\footrule%
 \renewcommand{\footrule}{\color{blue}\oldfootrule}% Add colour to \headrule
-\pagestyle{fancy}                    % Estilo de página                      
-\cfoot{}                             % Se quita numeración de página en el centro, que es por defecto.                        
-%\lhead{\textcolor{grayblack}{\nouppercase{\leftmark}}}      % Encabezado izquierdo    
-\lhead{\includegraphics[width=0.15\textwidth]{logo}}      % Encabezado izquierdo    
-\chead{\textcolor{grayblack}{\autor}}
-%\chead{\includegraphics[width=0.15\textwidth]{logo}}
-\rhead{\textcolor{grayblack}{\DTMsetstyle{ddmmyyyy} \fecha}}
-\lfoot{\textcolor{grayblack}{\small \titulo}}        % Pie de página izquierdo
-\rfoot{\textcolor{grayblack}{\small Pág. \thepage\ - \pageref*{LastPage}}} 			     % Pie de página derecho
+\pagestyle{fancy}                    % Default page style
+\cfoot{}                             % Empty foot center  
+\lhead{\includegraphics[width=0.15\textwidth]{logo}}     
+\chead{\textcolor{grayblack}{\author}}
+\rhead{\textcolor{grayblack}{\DTMsetstyle{ddmmyyyy} \date}}
+\lfoot{\textcolor{grayblack}{\small \title}}        
+\rfoot{\textcolor{grayblack}{\small Pág. \thepage\ - \pageref*{LastPage}}} 			     % Total of pages
 
 % *** GRAPHICS RELATED PACKAGES ***
-\usepackage{graphicx}         %Para trabajar con imagenes
-\usepackage{float}            % Para poder poner figuras dentro de minipages
-\usepackage{wrapfig}
-\usepackage{tikz}
-\usepackage[hypcap,font={color=grayblack}]{caption} % Las imágenes tienen hiperreferencia y se ven completas 
-\usepackage{subcaption} 	% Para poner subfiguras
-\usepackage{overpic}
-\graphicspath{{././figures/}}  % Se indica ubicación de carpeta con imágenes para no indicarlo en cada imagen
-
+\usepackage{graphicx}       % Loading images
+\usepackage{float}          % Figures inside minipages
+\usepackage{wrapfig}		% Text wrapped around figure
+\usepackage{tikz}			% Used to load cover figure
+\usepackage[hypcap,font={color=grayblack}]{caption} 
+\usepackage{subcaption} 	% For subfigures
+\usepackage{overpic}		% To add text over figures
+\graphicspath{{././figures/}}  % Figures relative directory
 
 % *** TITLE PACKAGES ***
 \usepackage{titlesec}
