@@ -11,7 +11,8 @@ jobs:
         with:
           root_file: |
             ./Simple_report/main.tex
-      - uses: actions/upload-artifact@v2
+      - name: Upload pdf as artifact
+        uses: actions/upload-artifact@v2
         with:
-          name: PDF
-          path: ./Simple_report/main.pdf
+          name: main.pdf
+          path: ./Simple_report
