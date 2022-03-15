@@ -12,3 +12,7 @@ jobs:
           root_file: |
             ./Simple and elegant report/main.tex
             ./Simple and elegant report/Simple_report.tex
+      - uses: actions/upload-artifact@v2
+        with:
+          name: PDF
+          path: ./Simple and elegant report/main.pdf
