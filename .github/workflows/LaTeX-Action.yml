@@ -1,18 +1,24 @@
 name: Build LaTeX document
 on: [push]
 jobs:
-  build_main:
+  paper:
     runs-on: ubuntu-latest
+    env:
+      # Edit here with the names of your latex file and directory (can use ".")
+      DIR: Simple_report
+      FILE: main
     steps:
-      - name: Set up Git repository
+      - name: Checkout
         uses: actions/checkout@v2
-      - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
-        with:
-          root_file: |
-            ./Simple_report/main.tex
+      - name: Install TeXlive
+        run: sudo apt-get install texlive texlive-publishers texlive-science latexmk cm-super
+      - name: LaTeX compile
+        working-directory: ${{ env.DIR }}
+        run: latexmk -pdf -bibtex ${{ env.FILE }}
+      - name: move
+        run: mkdir -p github_artifacts && mv ${{ env.DIR }}/${{ env.FILE }}.pdf ./github_artifacts/
       - name: Upload pdf as artifact
         uses: actions/upload-artifact@v2
         with:
-          name: main.pdf
-          path: ./Simple_report
+          name: ${{ env.FILE }}.pdf
+          path: ./github_artifacts
