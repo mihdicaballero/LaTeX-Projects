@@ -10,8 +10,8 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: |
-            ./Simple and elegant report/main.tex
+            ./Simple_report/main.tex
       - uses: actions/upload-artifact@v2
         with:
           name: PDF
-          path: ./Simple and elegant report/main.tex
+          path: ./Simple_report/main.tex
