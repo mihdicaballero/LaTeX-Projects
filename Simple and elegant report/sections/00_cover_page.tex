@@ -1,7 +1,7 @@
 \begin{titlepage}
-	\thispagestyle{empty} % Para que no aparezca numero de pagina
+	\thispagestyle{empty} % No header nor footer
 	\newgeometry{%
-		top=4.8cm, % Espacio blanco arriba del logo
+		top=4.8cm, % Blank space over the title
 		bottom=3cm,
 		left=3.50cm,
 		right=2.54cm,
@@ -12,11 +12,10 @@
 	\begin{tikzpicture}[remember picture,overlay]
 		\node[inner sep=0pt] at (current page.center)
 		{\includegraphics[width=21cm]{cover}};
-	\end{tikzpicture}
-	% Inserto el logo	
+	\end{tikzpicture} % Load the cover
 	%	
 	\vspace{4cm} \noindent 
-	% Nombre del coumento
+	% Report information
 	\begin{flushright}
 		{\fontsize{40}{50}\selectfont
 			
