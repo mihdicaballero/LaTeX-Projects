@@ -1,36 +1,29 @@
 \begin{titlepage}
 	\thispagestyle{empty} % No header nor footer
-	\newgeometry{%
-		top=4.8cm, % Blank space over the title
-		bottom=3cm,
-		left=3.50cm,
-		right=2.54cm,
-		headsep=0.75cm,
-		headheight=35pt,
-		footskip=2cm,
-		marginparwidth=4cm,}
 	\begin{tikzpicture}[remember picture,overlay]
 		\node[inner sep=0pt] at (current page.center)
 		{\includegraphics[width=21cm]{cover}};
 	\end{tikzpicture} % Load the cover
-	%	
-	\vspace{4cm} \noindent 
-	% Report information
-	\begin{flushright}
-		{\fontsize{40}{50}\selectfont
-			
-			\begin{tabular}{>{\raggedleft\arraybackslash}p{8cm}}
-				\title \\ 
-		\end{tabular} }
-	\end{flushright}
-
-	\vfill \noindent
-	\begin{flushright}
-		{\Huge 
-			\begin{tabular}{>{\raggedleft\arraybackslash}p{10cm}}
+	\hfill 
+	%	Title
+	\begin{minipage}{8cm}
+		\vspace{5cm} 
+		\begin{flushright}
+			\begin{spacing}{3}
+				{\fontsize{40}{50}\selectfont \title}.
+			\end{spacing}
+		\end{flushright}
+	\end{minipage}
+	\vfill 
+	\hfill
+	% Subtitle, author and date
+	\begin{minipage}{10cm}
+		\begin{flushright}	
+			\begin{spacing}{2}
 				{\Large \bfseries Mi proyecto pro en \LaTeX} \\ [0.5cm]
 				{\Large \author} \\
 				{\Large \date}
-		\end{tabular} }
-	\end{flushright}
+			\end{spacing}
+		\end{flushright}
+	\end{minipage}
 \end{titlepage}
