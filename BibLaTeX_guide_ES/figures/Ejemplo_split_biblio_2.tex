@@ -1,0 +1,31 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,spanish,mexico]{babel}
+\usepackage{palatino}
+
+\usepackage[
+backend=biber,	% Backend para las referencias (no modificar)
+style=apa, 		% Estilo APA de bibliografía
+sortcites,		% Para tener ordenadas las citas
+natbib=true,	% Utiliza natbib
+]{biblatex}
+\urlstyle{sf} % Estilo de los url pasa a Sans Serif.
+\DeclareLanguageMapping{spanish}{spanish-apa}  % APA en español
+
+\addbibresource{biblio_1.bib}
+
+\begin{document}
+	\section{Primer parte}
+	\begin{refsection}
+		Esta es la parte inicial documento, basado en \cite{guia1}.
+	\end{refsection}
+	
+	\section{Segunda parte}
+	\begin{refsection}
+		Esta es la parte final del documento, basado en \cite{biber}.
+	\end{refsection}
+\printbibliography[section=1,title=Referencias de primer parte]
+\printbibliography[section=2,title=Referencias de segunda parte]
+\end{document}
