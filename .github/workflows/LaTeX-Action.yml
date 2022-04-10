@@ -9,7 +9,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: ./Simple_report/main.tex
+          root_file: ./Simple_report/Simple_report.tex
           
 #./Simple_report/Simple_report.tex
 # Esto va comentado por ahora que no anda
