@@ -5,9 +5,9 @@ This document explains the basic notions to understand how to work with bibliogr
 
 <table>
 	<tr>
-		<td><img src="../media/BibLaTeX_guide_ES_01.jpg" width=210 height=290></td>
-		<td><img src="../media/BibLaTeX_guide_ES_02.jpg" width=210 height=290></td>
-		<td><img src="../media/BibLaTeX_guide_ES_04.jpg" width=210 height=290></td>
+		<td><img src="../media/BibLaTeX_guide_ES_01.jpg" width=315></td>
+		<td><img src="../media/BibLaTeX_guide_ES_02.jpg" width=315></td>
+		<td><img src="../media/BibLaTeX_guide_ES_03.jpg" width=315></td>
 	</tr>
  </table>
 
