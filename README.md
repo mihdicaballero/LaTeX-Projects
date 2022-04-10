@@ -5,10 +5,22 @@ LaTeX templates, classes and guides to create beautiful and efficient documents.
 [![License MIT](http://img.shields.io/badge/license-MIT-brightgreen.svg)](license.md)
 
 ## Simple report
-![](media/Simple_report.jpg)
+<table>
+	<tr>
+		<td><img src="media/Simple_report_01.jpg" width=315></td>
+		<td><img src="media/Simple_report_02.jpg" width=315></td>
+		<td><img src="media/Simple_report_03.jpg" width=315></td>
+	</tr>
+ </table>
 
 ## BibLaTeX guide in Spanish
-![](media/BibLaTeX_guide_ES.jpg)
+<table>
+	<tr>
+		<td><img src="media/BibLaTeX_guide_ES_01.jpg" width=315></td>
+		<td><img src="media/BibLaTeX_guide_ES_02.jpg" width=315></td>
+		<td><img src="media/BibLaTeX_guide_ES_03.jpg" width=315></td>
+	</tr>
+ </table>
 
 **Licence**
 
