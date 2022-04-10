@@ -5,7 +5,7 @@ This template is based on the article class and is very straight forward in its 
 
 The example content is there for the user to copy and paste the code of the most used elements in a report. If you want to just use the template, simple write new sections with all the LaTeX commands that you know. There are currently no special commands defined in this template. 
 
-![](../media/Simple_report_cover.jpg)
+![](../media/Simple_report.jpg)
 
 To-Do List:
 - [x] Convert all text to lipsum snippets. 
