@@ -5,5 +5,12 @@ LaTeX templates, classes and guides to create beautiful and efficient documents.
 [![License MIT](http://img.shields.io/badge/license-MIT-brightgreen.svg)](license.md)
 
 ## Simple report
+![](media/Simple_report.jpg)
 
-Add screenshots
+## BibLaTeX guide in Spanish
+![](media/BibLaTeX_guide_ES.jpg)
+
+**Licence**
+
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+

@@ -7,12 +7,6 @@ The example content is there for the user to copy and paste the code of the most
 
 ![](../media/Simple_report.jpg)
 
-To-Do List:
-- [x] Convert all text to lipsum snippets. 
-- [x] Translate all comments to English.
-- [x] Add screenshots of the final report.
-- [ ] Finish README presentation.
-
 **Licence**
 
 This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
