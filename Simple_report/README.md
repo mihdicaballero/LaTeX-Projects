@@ -5,7 +5,13 @@ This template is based on the article class and is very straight forward in its 
 
 The example content is there for the user to copy and paste the code of the most used elements in a report. If you want to just use the template, simple write new sections with all the LaTeX commands that you know. There are currently no special commands defined in this template. 
 
-![](../media/Simple_report.jpg)
+<table>
+	<tr>
+		<td><img src="../media/Simple_report_01.jpg" width=315></td>
+		<td><img src="../media/Simple_report_02.jpg" width=315></td>
+		<td><img src="../media/Simple_report_03.jpg" width=315></td>
+	</tr>
+ </table>
 
 **Licence**
 
