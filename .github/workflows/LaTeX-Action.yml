@@ -1,15 +1,15 @@
-name: Build LaTeX document
-on: [push]
-jobs:
-  build_latex:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Set up Git repository
-        uses: actions/checkout@v2
-      - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
-        with:
-          root_file: ./Simple_report/Simple_report.tex
+#~ name: Build LaTeX document
+#~ on: [push]
+#~ jobs:
+  #~ build_latex:
+    #~ runs-on: ubuntu-latest
+    #~ steps:
+      #~ - name: Set up Git repository
+        #~ uses: actions/checkout@v2
+      #~ - name: Compile LaTeX document
+        #~ uses: xu-cheng/latex-action@v2
+        #~ with:
+          #~ root_file: ./Simple_report/Simple_report.tex
           
 #./Simple_report/Simple_report.tex
 # Esto va comentado por ahora que no anda
