@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+% Figuras
+\usepackage{graphicx}
+\graphicspath{{./figuras/}}
+% Texto
+\usepackage{lipsum}
+\renewcommand*\familydefault{\sfdefault} 
+% Geometría
+\usepackage{geometry}
+\geometry{
+	left=25mm,
+	right=25mm,
+	top=35mm,
+	bottom=30mm,
+	headheight = 35 mm
+} 
+\usepackage{lastpage}
+% Color
+\usepackage{xcolor}
+\definecolor{azul}{RGB}{0,67,148}
+\definecolor{amarillo}{RGB}{255,204,0}
+\definecolor{naranja}{RGB}{247,116,2}
+% Encabezado
+\usepackage{fancyhdr} 
+\newcommand\crule[3][black]{\textcolor{#1}{\rule{#2}{#3}}}
+\renewcommand{\headrulewidth}{2pt} 
+\let\oldheadrule\headrule% Copy \headrule into \oldheadrule
+\renewcommand{\headrule}{\color{azul}\oldheadrule}
+\pagestyle{fancy}                                          
+\lhead{\includegraphics[width=0.12\textwidth]{logo}}       
+\chead{\autor \\ \crule[amarillo]{2cm}{2pt}\crule[naranja]{2cm}{2pt}\vspace{-6pt}}
+\rhead{	 \fecha \\ Pág. \thepage\ - \pageref{LastPage}}
+\cfoot{}
+
+\title{Informe completo}
+\author{Chuck Norris}
+\newcommand{\autor}{Chuck Norris}
+\newcommand{\fecha}{25-05-22}
+
+\begin{document}
+\maketitle
+
+\section{Primer sección}
+\lipsum[1-20]
+
+\end{document}
