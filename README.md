@@ -24,6 +24,7 @@ Author: Mihdí Caballero
  </table>
 
 **Learn LaTeX**
+
 You can learn more of LaTeX in my online course, through this [link](https://bit.ly/LaTeXGitHub). 
 
 
