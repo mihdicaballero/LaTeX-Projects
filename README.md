@@ -1,6 +1,8 @@
 # LaTeX-Projects
 LaTeX templates, classes and guides to create beautiful and efficient documents.
 
+Author: Mihdí Caballero
+
 [![License MIT](http://img.shields.io/badge/license-MIT-brightgreen.svg)](license.md)
 
 ## Simple report
@@ -21,7 +23,11 @@ LaTeX templates, classes and guides to create beautiful and efficient documents.
 	</tr>
  </table>
 
-**Licence**
+**Learn LaTeX**
+You can learn more of LaTeX in my online course, through this [link](https://bit.ly/LaTeXGitHub). 
+
+
+**License**
 
 This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
