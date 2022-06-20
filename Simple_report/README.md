@@ -13,6 +13,10 @@ The example content is there for the user to copy and paste the code of the most
 	</tr>
  </table>
 
+**Learn LaTeX**
+
+You can learn more of LaTeX in my online course, through this link: [https://bit.ly/CursoDefinitivoLateX](https://bit.ly/CursoDefinitivoLaTeX). 
+
 **Licence**
 
 This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
