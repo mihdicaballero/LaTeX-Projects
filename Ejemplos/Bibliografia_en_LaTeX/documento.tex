@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}	
+\usepackage[utf8]{inputenc}
+\usepackage[colorlinks=true, citecolor=blue]{hyperref}
+\usepackage[
+backend=biber,	% Backend para las referencias (no modificar)
+style=apa,  % Estilo alfabético 
+sortcites,		% Para tener ordenadas las citas
+url=true, 		% Para que aparezca o no la url
+]{biblatex}
+	
+\addbibresource{biblio.bib}
+
+
+\begin{document}
+
+\tableofcontents
+
+\section{Primer sección}
+Esto es texto de relleno. \textcite{ercolani2007empleo} o sino a \parencite{lara2018estructuras,lozano2008criterios}.
+
+También está en \cite[10]{rio2008patologia} o sino \cite[Ver también][xiv]{lozano2008criterios}
+
+\printbibliography[heading=bibintoc]
+	%\addcontentsline{toc}{section}{Referencias}
+%\begin{thebibliography}{100}
+%	\bibitem{leon} Leonhardt, F., \& Monning, E. (1985). \textit{Estructuras de hormigón armado}. El Ateneo.
+%\end{thebibliography}
+\end{document}
+
+
+
+
+
