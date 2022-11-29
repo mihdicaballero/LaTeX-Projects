@@ -1,0 +1,19 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'BibLaTeX_guide_ES.blg'
+[126] biber-MSWIN64:340> INFO - === 
+[172] Biber.pm:418> INFO - Reading 'BibLaTeX_guide_ES.bcf'
+[322] Biber.pm:978> INFO - Found 3 citekeys in bib section 0
+[349] Biber.pm:4401> INFO - Processing section 0
+[362] Biber.pm:4592> INFO - Looking for bibtex file './bibliography/biblio_1.bib' for section 0
+[425] bibtex.pm:1713> INFO - LaTeX decoding ...
+[447] bibtex.pm:1518> INFO - Found BibTeX data source './bibliography/biblio_1.bib'
+[500] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[500] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[500] Biber.pm:4221> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[513] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[513] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[513] Biber.pm:4221> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[520] bbl.pm:654> INFO - Writing 'BibLaTeX_guide_ES.bbl' with encoding 'UTF-8'
+[524] bbl.pm:757> INFO - Output to BibLaTeX_guide_ES.bbl
+[524] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Mihdi\AppData\Local\Temp\biber_tmp_UHuy\f6e46c044b7a94160234e98e7535d543_166412.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[524] Biber.pm:132> INFO - WARNINGS: 1

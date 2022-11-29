@@ -1,0 +1,20 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Base de datos de bibliografía}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Estructura de la base de datos}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Tipos de documentos}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Nombres de autor}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Información adicional}{3}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Usando citas}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}El paquete Bib\LaTeX }{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}El comando \textbackslash addbibresource}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}El comando \textbackslash cite}{5}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Información adicional en una cita}{5}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Variantes del comando \textbackslash cite}{6}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}El comando \textbackslash nocite}{6}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}El comando \textbackslash printbibliography}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Cantidad de autores citados}{6}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Múltiples bibliografías}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Separar la bibliografía}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Una bibliografía por capítulo}{8}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Configuración de TeXstudio}{10}{section.4}%
+\contentsline {section}{Referencias}{11}{section*.4}%

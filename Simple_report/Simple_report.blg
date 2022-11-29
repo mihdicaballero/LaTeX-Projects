@@ -1,0 +1,20 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'Simple_report.blg'
+[145] biber-MSWIN64:340> INFO - === 
+[192] Biber.pm:418> INFO - Reading 'Simple_report.bcf'
+[359] Biber.pm:978> INFO - Found 5 citekeys in bib section 0
+[382] Biber.pm:4401> INFO - Processing section 0
+[395] Biber.pm:4592> INFO - Looking for bibtex file 'bibliography/biblio.bib' for section 0
+[459] bibtex.pm:1713> INFO - LaTeX decoding ...
+[480] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography/biblio.bib'
+[552] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[552] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[552] Biber.pm:4221> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[576] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[577] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[577] Biber.pm:4221> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[594] bbl.pm:654> INFO - Writing 'Simple_report.bbl' with encoding 'UTF-8'
+[600] bbl.pm:757> INFO - Output to Simple_report.bbl
+[600] Biber.pm:130> WARN - legacy month field 'feb' in entry 'article-example' is not an integer - this will probably not sort properly.
+[601] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Mihdi\AppData\Local\Temp\biber_tmp_g4Bh\a9e03cb3043b9e2c02591da84105bb68_76872.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[601] Biber.pm:132> INFO - WARNINGS: 2

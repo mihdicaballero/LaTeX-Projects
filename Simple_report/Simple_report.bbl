@@ -1,0 +1,385 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{guia1}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1c62ad6adcf1753ff8153ff2f9f37220}{%
+           family={Adelstein},
+           familyi={A\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=141d5796e1c7c6f374289a721daa83da}{%
+           family={Kuguel},
+           familyi={K\bibinitperiod},
+           given={I},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Buenos Aires}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Nacional de General Sarmiento}%
+      }
+      \strng{namehash}{7b994784fd12a4df950fc3976c73ef58}
+      \strng{fullhash}{7b994784fd12a4df950fc3976c73ef58}
+      \strng{bibnamehash}{7b994784fd12a4df950fc3976c73ef58}
+      \strng{authorbibnamehash}{7b994784fd12a4df950fc3976c73ef58}
+      \strng{authornamehash}{7b994784fd12a4df950fc3976c73ef58}
+      \strng{authorfullhash}{7b994784fd12a4df950fc3976c73ef58}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Los textos académicos en el nivel universitario}}
+      \field{year}{2011}
+    \endentry
+    \entry{ArgosyMedicalAnimation}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=172164d6f714abf1164bf906e917fffc}{%
+           family={{Argosy Medical Animation}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{172164d6f714abf1164bf906e917fffc}
+      \strng{fullhash}{172164d6f714abf1164bf906e917fffc}
+      \strng{bibnamehash}{172164d6f714abf1164bf906e917fffc}
+      \strng{authorbibnamehash}{172164d6f714abf1164bf906e917fffc}
+      \strng{authornamehash}{172164d6f714abf1164bf906e917fffc}
+      \strng{authorfullhash}{172164d6f714abf1164bf906e917fffc}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Argosy Publishing}
+      \field{title}{{Visible body: Discover human anatomy}}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2016}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.visiblebody.com/
+      \endverb
+      \verb{url}
+      \verb https://www.visiblebody.com/
+      \endverb
+    \endentry
+    \entry{biblatex}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e45b6c9da385a335e3190c0d9ad5b9e0}{%
+           family={Hegna},
+           familyi={H\bibinitperiod},
+           given={Knut},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2acaf460f854e26c468b85e18516ce28}{%
+           family={Langmyhr},
+           familyi={L\bibinitperiod},
+           given={Dag},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oslo}%
+      }
+      \list{publisher}{1}{%
+        {Department of Informatics, University of Oslo}%
+      }
+      \strng{namehash}{01990a2f3f74c68fb882c82bee77fd9f}
+      \strng{fullhash}{01990a2f3f74c68fb882c82bee77fd9f}
+      \strng{bibnamehash}{01990a2f3f74c68fb882c82bee77fd9f}
+      \strng{authorbibnamehash}{01990a2f3f74c68fb882c82bee77fd9f}
+      \strng{authornamehash}{01990a2f3f74c68fb882c82bee77fd9f}
+      \strng{authorfullhash}{01990a2f3f74c68fb882c82bee77fd9f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Local guide to BibLaTeX}
+      \field{year}{2019}
+    \endentry
+    \entry{article-example}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30b8f8d07c0ccbe94f9c4a6e70ba4c5c}{%
+           family={Iesan},
+           familyi={I\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{30b8f8d07c0ccbe94f9c4a6e70ba4c5c}
+      \strng{fullhash}{30b8f8d07c0ccbe94f9c4a6e70ba4c5c}
+      \strng{bibnamehash}{30b8f8d07c0ccbe94f9c4a6e70ba4c5c}
+      \strng{authorbibnamehash}{30b8f8d07c0ccbe94f9c4a6e70ba4c5c}
+      \strng{authornamehash}{30b8f8d07c0ccbe94f9c4a6e70ba4c5c}
+      \strng{authorfullhash}{30b8f8d07c0ccbe94f9c4a6e70ba4c5c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Elasticity}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{{Existence Theorems in the Theory of Mixtures}}
+      \field{volume}{42}
+      \field{year}{1996}
+      \field{pages}{145\bibrangedash 163}
+      \range{pages}{19}
+    \endentry
+    \entry{biber}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=518f52ea2d73db1cfac0095db0482363}{%
+           family={Kime},
+           familyi={K\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c2c18785a49578bb60659064cac3b81}{%
+           family={Charette},
+           familyi={C\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6820842cd16ba50d38432ce90c3816e6}
+      \strng{fullhash}{6820842cd16ba50d38432ce90c3816e6}
+      \strng{bibnamehash}{6820842cd16ba50d38432ce90c3816e6}
+      \strng{authorbibnamehash}{6820842cd16ba50d38432ce90c3816e6}
+      \strng{authornamehash}{6820842cd16ba50d38432ce90c3816e6}
+      \strng{authorfullhash}{6820842cd16ba50d38432ce90c3816e6}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{biber — A BibTeX replacement for users of biblatex}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2016}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.ctan.org/texarchive/biblio/biber/
+      \endverb
+      \verb{url}
+      \verb http://www.ctan.org/texarchive/biblio/biber/
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{guia1}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1c62ad6adcf1753ff8153ff2f9f37220}{%
+           family={Adelstein},
+           familyi={A\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=141d5796e1c7c6f374289a721daa83da}{%
+           family={Kuguel},
+           familyi={K\bibinitperiod},
+           given={I},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Buenos Aires}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Nacional de General Sarmiento}%
+      }
+      \strng{namehash}{7b994784fd12a4df950fc3976c73ef58}
+      \strng{fullhash}{7b994784fd12a4df950fc3976c73ef58}
+      \strng{bibnamehash}{7b994784fd12a4df950fc3976c73ef58}
+      \strng{authorbibnamehash}{7b994784fd12a4df950fc3976c73ef58}
+      \strng{authornamehash}{7b994784fd12a4df950fc3976c73ef58}
+      \strng{authorfullhash}{7b994784fd12a4df950fc3976c73ef58}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Los textos académicos en el nivel universitario}}
+      \field{year}{2011}
+    \endentry
+    \entry{ArgosyMedicalAnimation}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=172164d6f714abf1164bf906e917fffc}{%
+           family={{Argosy Medical Animation}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{172164d6f714abf1164bf906e917fffc}
+      \strng{fullhash}{172164d6f714abf1164bf906e917fffc}
+      \strng{bibnamehash}{172164d6f714abf1164bf906e917fffc}
+      \strng{authorbibnamehash}{172164d6f714abf1164bf906e917fffc}
+      \strng{authornamehash}{172164d6f714abf1164bf906e917fffc}
+      \strng{authorfullhash}{172164d6f714abf1164bf906e917fffc}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Argosy Publishing}
+      \field{title}{{Visible body: Discover human anatomy}}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2016}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.visiblebody.com/
+      \endverb
+      \verb{url}
+      \verb https://www.visiblebody.com/
+      \endverb
+    \endentry
+    \entry{biblatex}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e45b6c9da385a335e3190c0d9ad5b9e0}{%
+           family={Hegna},
+           familyi={H\bibinitperiod},
+           given={Knut},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2acaf460f854e26c468b85e18516ce28}{%
+           family={Langmyhr},
+           familyi={L\bibinitperiod},
+           given={Dag},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oslo}%
+      }
+      \list{publisher}{1}{%
+        {Department of Informatics, University of Oslo}%
+      }
+      \strng{namehash}{01990a2f3f74c68fb882c82bee77fd9f}
+      \strng{fullhash}{01990a2f3f74c68fb882c82bee77fd9f}
+      \strng{bibnamehash}{01990a2f3f74c68fb882c82bee77fd9f}
+      \strng{authorbibnamehash}{01990a2f3f74c68fb882c82bee77fd9f}
+      \strng{authornamehash}{01990a2f3f74c68fb882c82bee77fd9f}
+      \strng{authorfullhash}{01990a2f3f74c68fb882c82bee77fd9f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Local guide to BibLaTeX}
+      \field{year}{2019}
+    \endentry
+    \entry{article-example}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30b8f8d07c0ccbe94f9c4a6e70ba4c5c}{%
+           family={Iesan},
+           familyi={I\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{30b8f8d07c0ccbe94f9c4a6e70ba4c5c}
+      \strng{fullhash}{30b8f8d07c0ccbe94f9c4a6e70ba4c5c}
+      \strng{bibnamehash}{30b8f8d07c0ccbe94f9c4a6e70ba4c5c}
+      \strng{authorbibnamehash}{30b8f8d07c0ccbe94f9c4a6e70ba4c5c}
+      \strng{authornamehash}{30b8f8d07c0ccbe94f9c4a6e70ba4c5c}
+      \strng{authorfullhash}{30b8f8d07c0ccbe94f9c4a6e70ba4c5c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Elasticity}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{{Existence Theorems in the Theory of Mixtures}}
+      \field{volume}{42}
+      \field{year}{1996}
+      \field{pages}{145\bibrangedash 163}
+      \range{pages}{19}
+    \endentry
+    \entry{biber}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=518f52ea2d73db1cfac0095db0482363}{%
+           family={Kime},
+           familyi={K\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c2c18785a49578bb60659064cac3b81}{%
+           family={Charette},
+           familyi={C\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6820842cd16ba50d38432ce90c3816e6}
+      \strng{fullhash}{6820842cd16ba50d38432ce90c3816e6}
+      \strng{bibnamehash}{6820842cd16ba50d38432ce90c3816e6}
+      \strng{authorbibnamehash}{6820842cd16ba50d38432ce90c3816e6}
+      \strng{authornamehash}{6820842cd16ba50d38432ce90c3816e6}
+      \strng{authorfullhash}{6820842cd16ba50d38432ce90c3816e6}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{biber — A BibTeX replacement for users of biblatex}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2016}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.ctan.org/texarchive/biblio/biber/
+      \endverb
+      \verb{url}
+      \verb http://www.ctan.org/texarchive/biblio/biber/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
