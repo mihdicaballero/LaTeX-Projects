@@ -1,0 +1,86 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\begin{document}
+	
+Código a mano simple con \verb|hola|.
+
+También como un bloque de código con texto monoespaciado.
+\begin{verbatim}
+	import math
+	import numpy as np
+	from lib.analytical import csa
+\end{verbatim}	
+
+\lstlistoflistings
+	
+
+Código en Python
+
+\begin{lstlisting}[language=Python, caption={Código en Python.}]
+"""
+---------
+sin2_theta  = np.sin(theta)**2
+"""
+import math
+import numpy as np
+from lib.analytical import csa
+
+sin2_theta  = np.sin(theta)**2
++= -= *= /= + - * / ? < > & % == <=
+# += -= *= /= + - * / ? < > & % == <=
+def test(a=100, b=True):
+<= >= == 2 + 3j * 7e-3
+\end{lstlisting}
+
+Código en Octave
+
+\begin{lstlisting}[language=Octave]
+% Funcion que calcula los grados de libertad de un elemento 
+% en funcion de las conectividades
+
+function gdl = conec2gdlframe (conectiv , elem )
+
+nnod = size(conectiv,2); 
+gdl = zeros(1,3*nnod);
+for i=1:nnod
+	gdl(3*i-2) = 3*conectiv(elem,i)-2;
+	gdl(3*i-1) = 3*conectiv(elem,i)-1;
+	gdl(3*i) = 3*conectiv(elem,i);
+end
+\end{lstlisting}
+
+Cargo archivo de octave de la carpeta.
+\lstinputlisting[language=Octave]{codigo/moment.m}
+
+
+\end{document}
