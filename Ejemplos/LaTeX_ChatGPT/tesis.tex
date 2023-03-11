@@ -1,0 +1,132 @@
+\documentclass[12pt,oneside]{book}
+
+% Paquetes necesarios
+\usepackage[spanish, es-tabla]{babel} % idioma español y nombre "tabla" en lugar de "cuadro"
+\usepackage{times} % fuente Times New Roman
+\usepackage[left=25mm,top=30mm,right=25mm,bottom=25mm]{geometry} % márgenes de hoja
+\usepackage{graphicx} % para insertar imágenes
+\usepackage{fancyhdr} % para encabezados y pies de página personalizados
+\usepackage{lastpage} % para mostrar el número total de páginas en el pie de página
+\usepackage{titlesec} % para formato de los títulos de sección
+\usepackage{setspace} % para definir el espaciado entre líneas
+\usepackage{caption} % para personalizar los títulos de figuras y tablas
+
+% Formato de los encabezados y pies de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{\nouppercase{\rightmark}}
+\fancyfoot[L]{Tesis de ejemplo}
+\fancyfoot[R]{\thepage\ de \pageref{LastPage}}
+
+% Formato de los títulos de sección
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titleformat{\section}
+{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+
+% Cambiar el título del índice
+\renewcommand{\contentsname}{Tabla de contenidos}
+
+% Espaciado entre líneas
+\onehalfspacing
+
+\begin{document}
+	
+	% Portada
+	\begin{titlepage}
+		\begin{center}
+			\includegraphics[width=0.25\textwidth]{logo.png}
+			
+			\vspace*{2cm}
+			{\huge \textbf{Título de la tesis}}
+			
+			\vspace{1cm}
+			{\Large Tesis presentada para optar al grado de \textbf{Doctor en Ciencias}}
+			
+			\vspace{2cm}
+			{\Large \textbf{Autor:} Nombre del autor}
+			
+			\vspace{1cm}
+			{\Large \textbf{Institución:} Nombre de la universidad}
+			
+			\vspace{1cm}
+			{\Large \textbf{Ciudad:} Nombre de la ciudad}
+			
+			\vspace{1cm}
+			{\Large Año}
+		\end{center}
+	\end{titlepage}
+	
+	% Página en blanco
+	\newpage
+	\thispagestyle{empty}
+	\mbox{}
+	
+	% Dedicatoria
+	\chapter*{Dedicatoria}
+	\addcontentsline{toc}{chapter}{Dedicatoria}
+	\begin{flushright}
+		\textit{Dedicado a mi familia,\\
+			por su amor, apoyo y paciencia.}
+	\end{flushright}
+	
+	% Agradecimientos
+	\chapter*{Agradecimientos}
+	\addcontentsline{toc}{chapter}{Agradecimientos}
+	\begin{flushright}
+		\textit{Dedicado a mi familia,\\
+			por su amor, apoyo y paciencia.}
+	\end{flushright}
+
+% Índice
+\tableofcontents
+\addcontentsline{toc}{chapter}{Tabla de contenidos}
+
+% Lista de figuras
+\listoffigures
+\addcontentsline{toc}{chapter}{Lista de figuras}
+
+% Lista de tablas
+\listoftables
+\addcontentsline{toc}{chapter}{Lista de tablas}
+
+% Resumen
+\chapter*{Resumen}
+\addcontentsline{toc}{chapter}{Resumen}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non lobortis ante. Nunc lobortis nibh a neque ultricies, ac pharetra est ultricies. Quisque consectetur augue id lorem molestie rhoncus. Sed sed lectus ac velit eleifend tempus. In lacinia ipsum eu quam volutpat, ut tristique orci finibus. Nulla bibendum volutpat augue, sit amet egestas eros dignissim a. Pellentesque tristique, erat vel lacinia feugiat, elit elit iaculis nisl, at faucibus lacus massa vel risus.
+
+% Capítulos
+\chapter{Introducción}
+\section{Contexto}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non lobortis ante. Nunc lobortis nibh a neque ultricies, ac pharetra est ultricies. Quisque consectetur augue id lorem molestie rhoncus. Sed sed lectus ac velit eleifend tempus. In lacinia ipsum eu quam volutpat, ut tristique orci finibus. Nulla bibendum volutpat augue, sit amet egestas eros dignissim a. Pellentesque tristique, erat vel lacinia feugiat, elit elit iaculis nisl, at faucibus lacus massa vel risus.
+
+\section{Objetivos}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non lobortis ante. Nunc lobortis nibh a neque ultricies, ac pharetra est ultricies. Quisque consectetur augue id lorem molestie rhoncus. Sed sed lectus ac velit eleifend tempus. In lacinia ipsum eu quam volutpat, ut tristique orci finibus. Nulla bibendum volutpat augue, sit amet egestas eros dignissim a. Pellentesque tristique, erat vel lacinia feugiat, elit elit iaculis nisl, at faucibus lacus massa vel risus.
+
+\chapter{Estado del arte}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non lobortis ante. Nunc lobortis nibh a neque ultricies, ac pharetra est ultricies. Quisque consectetur augue id lorem molestie rhoncus. Sed sed lectus ac velit eleifend tempus. In lacinia ipsum eu quam volutpat, ut tristique orci finibus. Nulla bibendum volutpat augue, sit amet egestas eros dignissim a. Pellentesque tristique, erat vel lacinia feugiat, elit elit iaculis nisl, at faucibus lacus massa vel risus.
+
+\chapter{Metodología}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non lobortis ante. Nunc lobortis nibh a neque ultricies, ac pharetra est ultricies. Quisque consectetur augue id lorem molestie rhoncus. Sed sed lectus ac velit eleifend tempus. In lacinia ipsum eu quam volutpat, ut tr
+
+% Bibliografía
+\begin{thebibliography}{9}
+	\bibitem{einstein}
+	Einstein, A. (1905). Zur Elektrodynamik bewegter Körper. Annalen der Physik, 17(10), 891–921.
+	
+	\bibitem{knuth}
+	Knuth, D. E. (1984). The TeXbook. Addison-Wesley.
+	
+	\bibitem{lamport}
+	Lamport, L. (1994). LaTeX: A Document Preparation System (2nd ed.). Addison-Wesley.
+	
+	\bibitem{latexcompanion}
+	Mittelbach, F., \& Goossens, M. (2004). The LaTeX Companion (2nd ed.). Addison-Wesley.
+\end{thebibliography}
+
+\end{document}

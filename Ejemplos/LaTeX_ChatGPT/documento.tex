@@ -1,0 +1,86 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fontenc}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{csvsimple}
+\usepackage{booktabs}
+
+\usepackage[backend=biber, style=apa]{biblatex}
+
+\addbibresource{biblio.bib}
+
+\begin{document}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.45\textwidth]{figuras/tex_lion}
+	\caption{Leyenda de la figura.}
+	\label{fig:texlion}
+\end{figure}
+
+En la figura \ref{fig:texlion} se puede ver un ejemplo de cómo cargar imágenes en LaTeX.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{figuras/tex_lion}
+		\caption{Subfigura A.\label{fig:subA}}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{figuras/tex_lion}
+		\caption{Subfigura B.\label{fig:subB}}
+	\end{subfigure}
+	\caption{Leyenda de la figura completa.\label{fig:completa}}
+\end{figure}
+
+En la figura \ref{fig:completa}, se pueden ver dos subfiguras (ver subfiguras \ref{fig:subA} y \ref{fig:subB}) que muestran cómo cargar imágenes en LaTeX.
+
+\newpage
+
+\begin{table}[ht]
+	\centering
+	\csvautotabular{tabla.csv}
+	\caption{Ejemplo de tabla importada desde archivo CSV}
+	\label{tab:tabla-importada}
+\end{table}
+
+\begin{table}[h]
+	\centering
+	\csvreader[    tabular=ccc,    table head=\toprule \textbf{Columna 1} & \textbf{Columna 2} & \textbf{Columna 3} \\ \midrule,    table foot=\bottomrule,    late after line=\\  ]{tabla.csv}{}{ \csvcoli & \csvcolii & \csvcoliii }
+	\caption{Mi tabla}
+	\label{tab:mi_tabla}
+\end{table}
+
+\begin{table}
+	\centering
+	\begin{tabular}{l c r}
+		\toprule
+		Ciudad & País & Población \\
+		\midrule
+		Ciudad de México & México & 8.9 millones \\
+		São Paulo & Brasil & 12.3 millones \\
+		Buenos Aires & Argentina & 2.9 millones \\
+		Lima & Perú & 9.7 millones \\
+		Bogotá & Colombia & 7.4 millones \\
+		Santiago & Chile & 6.7 millones \\
+		Rio de Janeiro & Brasil & 6.7 millones \\
+		Caracas & Venezuela & 2.9 millones \\
+		Montevideo & Uruguay & 1.3 millones \\
+		Quito & Ecuador & 1.6 millones \\
+		\bottomrule
+	\end{tabular}
+	\caption{Ciudades y poblaciones en América Latina}
+	\label{tab:ciudades_poblaciones}
+\end{table}
+
+\newpage
+
+Esto es una referencia \textcite{ArgosyMedicalAnimation} y \parencite{Bockarjova2020}.
+
+
+\printbibliography
+
+\end{document}

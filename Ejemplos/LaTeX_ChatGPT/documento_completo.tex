@@ -1,0 +1,103 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{lastpage}
+
+
+% Configuración de márgenes y tamaño de papel
+\geometry{
+	a4paper,
+	left=25mm,
+	right=25mm,
+	top=30mm,
+	bottom=30mm
+}
+
+% Configuración de encabezado y pie de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{Autor}
+\fancyfoot[L]{Título del documento}
+\fancyfoot[R]{\thepage\ de \pageref{LastPage}}
+
+% Configuración de título y autor
+\title{Título del documento}
+\author{Autor}
+\date{Fecha}
+
+% Configuración de interlineado
+\onehalfspacing
+
+\begin{document}
+	
+	% Portada
+	\begin{titlepage}
+		\begin{center}
+			\vspace*{1cm}
+			
+			\includegraphics[width=0.4\textwidth]{logo.png}
+			
+			\vspace{1.5cm}
+			
+			\textbf{\Huge \thetitle}
+			
+			\vspace{0.5cm}
+			
+			\textbf{\Large Subtítulo}
+			
+			\vspace{1.5cm}
+			
+			\textbf{\Large Autor:} \theauthor \\
+			\textbf{\Large Ciudad, País} \\
+			\textbf{\Large Fecha:} \thedate
+			
+			\vfill
+			
+			\vspace{0.8cm}
+			
+			\includegraphics[width=0.15\textwidth]{logo.png}
+			
+			\vspace{1cm}
+			
+			\textbf{\Large Nombre de la Universidad}
+			
+		\end{center}
+	\end{titlepage}
+	
+	% Índice
+	\tableofcontents
+	\newpage
+	
+	% Introducción
+	\section{Introducción}
+	
+	% Metodología
+	\section{Metodología}
+	
+	% Análisis
+	\section{Análisis}
+	
+	% Conclusiones
+	\section{Conclusiones}
+	
+	% Bibliografía
+	\begin{thebibliography}{9}
+		\bibitem{ejemplo1}
+		Apellido, Nombre.
+		\textit{Título del libro}.
+		Editorial, Año.
+		
+		\bibitem{ejemplo2}
+		Apellido, Nombre.
+		\textit{Título del artículo}.
+		Nombre de la revista, Año.
+	\end{thebibliography}
+	
+\end{document}
