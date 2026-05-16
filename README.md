@@ -25,7 +25,7 @@ Author: Mihdí Caballero
 
 **Learn LaTeX**
 
-You can learn more of LaTeX in my online course, through this link: [https://bit.ly/CursoDefinitivoLateX](https://bit.ly/CursoDefinitivoLaTeX). 
+You can learn more of LaTeX in my online course, through this link: [melodijouningeniero.com](melodijouningeniero.com). 
 
 
 **License**
